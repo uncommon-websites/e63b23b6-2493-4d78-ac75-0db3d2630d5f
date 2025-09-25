@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Speed is strategy",
+			description: "In early-stage SaaS, faster feedback means better decisions. We help product teams validate features in hours—not weeks."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Signal over noise",
+			description: "We deliver insights that move the roadmap forward. No fluff, no guesswork—just the truth from real users."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Built for builders",
+			description: "Our tools are made for product leaders who want to stay close to their users and ship what truly matters."
 		}
 	];
 </script>
@@ -41,61 +41,45 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Your partners in product validation."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Jorge Dobón",
+			position: "Managing Partner",
+			bio: "Experienced leader driving product innovation with deep expertise in user research and validation methodologies.",
+			image: "/generated/image-a-professional-businessman-in-his-30s-ph.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Mario Navarro",
+			position: "Partner & IC Member",
+			bio: "Strategic partner focused on building scalable research solutions that deliver actionable insights to product teams.",
+			image: "/generated/image-a-professional-businesswoman-in-her-40s-.webp"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			name: "Julio Ribes",
+			position: "Partner & IC Member",
+			bio: "Product research specialist with extensive experience in fast-moving startup environments and user validation frameworks.",
+			image: "/generated/image-a-professional-businessman-in-his-50s-ca.webp"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Álvaro Callejo",
+			position: "Partner & IC Member",
+			bio: "Technology and product development expert committed to transforming how teams gather and act on user feedback.",
+			image: "/generated/image-a-professional-businessman-in-his-late-2.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Start testing today"
+	subtitle="Get answers in 24 hours"
+	description="Join top product teams moving faster and smarter—no contracts, no waiting. See your first user insights tomorrow and make confident product decisions."
+	imageSrc="/generated/image-a-professional-product-manager-dressed-i.webp"
 />
