@@ -11,94 +11,75 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Speed is strategy",
+			description: "In early-stage SaaS, faster feedback means better decisions. We help product teams validate features in hours—not weeks."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Signal over noise",
+			description: "We deliver insights that move the roadmap forward. No fluff, no guesswork—just the truth from real users."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Built for builders",
+			description: "Our tools are made for product leaders who want to stay close to their users and ship what truly matters."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Real answers, fast"
+	subtitle="User insights, without the wait"
+	imageSrc="/generated/image-a-group-of-diverse-professionals-gathere.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Series A product managers are under constant pressure to move quickly. Growth targets don't wait—but traditional user research does. Weeks to schedule interviews, thousands spent on panels, and results that often contradict each other. Our founders had been there themselves—launching products, chasing signals, and making decisions with more gut than data. The gap between the speed of building and the slowness of research was costing teams time, budget, and clarity.",
+		"Jorge Dobón, Mario Navarro, Julio Ribes, and Álvaro Callejo came together to solve the problem they deeply understood. With backgrounds spanning product, venture, and startups, they knew firsthand the cost of moving fast without real insight. Their solution? A new kind of research tool built for product managers—where recruiting users is instant, feedback is fast, and insights are clear. Inspired by tools like Notion and Figma, they designed a platform that brings research closer to where decisions happen: inside fast-moving product teams.",
+		"Today, we help product teams validate features in days, not weeks. What once took piles of spreadsheets and lengthy processes now takes a few clicks. With real users and real data from the start, teams reduce the risk of building things no one needs. Our mission is simple—help every product decision feel confident, not hopeful. Because when you stop guessing and start listening, what you build gets better."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Your partners in product validation."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Jorge Dobón",
+			position: "Managing Partner",
+			bio: "Experienced leader driving product innovation with deep expertise in user research and validation methodologies.",
+			image: "/generated/image-a-professional-businessman-in-his-30s-ph.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Mario Navarro",
+			position: "Partner & IC Member",
+			bio: "Strategic partner focused on building scalable research solutions that deliver actionable insights to product teams.",
+			image: "/generated/image-a-professional-businesswoman-in-her-40s-.webp"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			name: "Julio Ribes",
+			position: "Partner & IC Member",
+			bio: "Product research specialist with extensive experience in fast-moving startup environments and user validation frameworks.",
+			image: "/generated/image-a-professional-businessman-in-his-50s-ca.webp"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Álvaro Callejo",
+			position: "Partner & IC Member",
+			bio: "Technology and product development expert committed to transforming how teams gather and act on user feedback.",
+			image: "/generated/image-a-professional-businessman-in-his-late-2.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Start testing today"
+	subtitle="Get answers in 24 hours"
+	description="Join top product teams moving faster and smarter—no contracts, no waiting. See your first user insights tomorrow and make confident product decisions."
+	imageSrc="/generated/image-a-professional-product-manager-dressed-i.webp"
 />

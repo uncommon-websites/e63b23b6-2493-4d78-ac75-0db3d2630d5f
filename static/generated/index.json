@@ -4,6 +4,7 @@
     "filename": "/generated/image-a-group-of-professional-product-managers.webp"
   },
   {
+<<<<<<< HEAD
     "prompt": "Professional Asian woman product manager with a confident smile, photographed in a bright, modern office environment with natural light, soft background blur, business casual attire, natural pose, subtle accessories, neutral tones, head and shoulders crop, realistic photography style",
     "filename": "/generated/image-professional-asian-woman-product-manager.webp"
   },
@@ -14,5 +15,53 @@
   {
     "prompt": "Professional Hispanic woman product manager with a warm smile, pictured in a well-lit, modern office setting with soft natural light, slightly blurred background, business casual dress, comfortable and open posture, understated jewelry, subtle color accents, head and shoulders crop, realistic portrait style",
     "filename": "/generated/image-professional-hispanic-woman-product-mana.webp"
+=======
+    "prompt": "Professional headshot of a confident Asian woman in a modern office, natural lighting, neutral background with soft tones, business attire, relaxed and approachable expression, subtle variety in hairstyle and accessories for different images, blurred office environment in the background with visible desks, chairs, and indoor plants.",
+    "filename": "/generated/image-professional-headshot-of-a-confident-asi.webp"
+  },
+  {
+    "prompt": "Professional headshot of a confident Black man in a modern office, natural lighting, neutral background with soft tones, business attire, friendly and professional expression, slight variation in posture and facial hair styles for different images, blurred office environment in the background with visible desks, chairs, and indoor plants.",
+    "filename": "/generated/image-professional-headshot-of-a-confident-bla.webp"
+  },
+  {
+    "prompt": "Professional headshot of a confident Latino woman in a modern office, natural lighting, neutral background with soft tones, business attire, warm and approachable smile, subtle variation in hairstyle and accessories for different images, blurred office environment in the background with visible desks, chairs, and indoor plants.",
+    "filename": "/generated/image-professional-headshot-of-a-confident-lat.webp"
+  },
+  {
+    "prompt": "A product manager sits at a modern office table, thoughtfully reviewing printed charts and documents with colorful graphs, surrounded by a few colleagues engaged in discussion. Natural daylight streams through large windows, and potted plants add a touch of greenery to the workspace.",
+    "filename": "/generated/image-a-product-manager-sits-at-a-modern-offic.webp"
+  },
+  {
+    "prompt": "A user testing session in a cozy, well-lit meeting room, where a participant sits across from a facilitator, both interacting with a physical product or paper prototype. The atmosphere is collaborative and friendly, with coffee cups and notepads on the table, and casual business attire.",
+    "filename": "/generated/image-a-user-testing-session-in-a-cozy-well-li.webp"
+  },
+  {
+    "prompt": "A group of professionals gathered around a table covered with printed infographics and colorful charts, animatedly discussing patterns and insights. The office has a creative, open-plan feel, with shelves of books and plants in the background, and everyone appears engaged and collaborative.",
+    "filename": "/generated/image-a-group-of-professionals-gathered-around.webp"
+  },
+  {
+    "prompt": "A group of diverse professionals gathered around a large wooden table in a contemporary office, engaged in a lively discussion. Sunlight streams in through large windows, illuminating indoor plants and modern furniture. The team is collaborating closely, referencing printed charts and notes, with a variety of expressions and gestures. The workspace features cozy breakout areas, bookshelves, and natural materials, creating an inviting and energetic atmosphere.",
+    "filename": "/generated/image-a-group-of-diverse-professionals-gathere.webp"
+  },
+  {
+    "prompt": "A professional businessman in his 30s, photographed in a modern office setting, wearing a tailored suit and a subtle tie, neutral background with soft natural light, confident expression, clean and well-groomed appearance, shallow depth of field for a polished headshot look.",
+    "filename": "/generated/image-a-professional-businessman-in-his-30s-ph.webp"
+  },
+  {
+    "prompt": "A professional businesswoman in her 40s, photographed in a contemporary office environment, dressed in an elegant blazer and blouse, neutral backdrop with diffused daylight, approachable and confident demeanor, minimal jewelry, neat hairstyle, softly blurred background for a refined portrait effect.",
+    "filename": "/generated/image-a-professional-businesswoman-in-her-40s-.webp"
+  },
+  {
+    "prompt": "A professional businessman in his 50s, captured in a stylish business lounge, wearing a dark suit and white shirt, background featuring subtle office elements such as potted plants and shelves, relaxed yet professional expression, well-combed hair, gentle natural light for a sophisticated headshot.",
+    "filename": "/generated/image-a-professional-businessman-in-his-50s-ca.webp"
+  },
+  {
+    "prompt": "A professional businessman in his late 20s, photographed in a bright office with large windows, wearing a slim-fit suit and patterned tie, simple background with soft focus, friendly and energetic expression, tidy hairstyle, natural daylight for a crisp and modern portrait.",
+    "filename": "/generated/image-a-professional-businessman-in-his-late-2.webp"
+  },
+  {
+    "prompt": "A professional product manager, dressed in smart business attire, stands in a modern office environment with natural lighting and contemporary furnishings. The person is smiling confidently at the camera, with subtle background activity from colleagues or customers to add authenticity and variety. No visible screens, tech devices, text, or posters.",
+    "filename": "/generated/image-a-professional-product-manager-dressed-i.webp"
+>>>>>>> d4455a0701c52acf9b3a2451762520982aa1b329
   }
 ]
