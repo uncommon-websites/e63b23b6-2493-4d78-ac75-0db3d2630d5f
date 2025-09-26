@@ -32,54 +32,61 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Mei Chen",
+			position: "Senior Product Manager",
+			company: "DataFlow Technologies",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We used to spend 3 weeks gathering user feedback through surveys and interviews. Now we validate features in 48 hours with real behavioral data. This saved us $40K in development costs on our last failed feature.",
+			image: "/generated/image-professional-headshot-of-a-confident-asi.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Williams",
+			position: "Head of Product",
+			company: "CloudScale Solutions",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before, 60% of our features flopped post-launch. The risk was killing our roadmap confidence. Now we de-risk every decision with actual user data, leading to an 85% feature success rate and faster product-market fit.",
+			image: "/generated/image-professional-headshot-of-a-confident-bla.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Isabella Rodriguez",
+			position: "VP Product",
+			company: "GrowthTech Inc",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Our team was burning through $200K quarterly on features users didn't want. This platform cut our validation time from months to days, reducing our feature development costs by 70% while increasing user satisfaction.",
+			image: "/generated/image-professional-headshot-of-a-confident-lat.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Validate faster, decide smarter"
+	subtitle="Everything you need to test ideas with real users and ship features that matter"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Real-time user testing",
+			description: "Get user feedback on prototypes and features within hours, not weeks. Skip the research agency bottleneck and validate ideas directly with your target audience."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "AI-powered insight generation", 
+			description: "Transform raw user feedback into actionable insights automatically. Our AI identifies patterns, prioritizes issues, and suggests improvements so you can focus on building."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Budget-friendly research plans",
+			description: "Access professional-grade user research without the agency price tag. Scale your testing budget as you grow, starting at a fraction of traditional research costs."
+		},
+		{
+			title: "Feature impact prediction",
+			description: "Know which features will drive engagement before you build them. Our predictive models analyze user behavior to forecast feature success and ROI."
+		},
+		{
+			title: "Scalable testing infrastructure",
+			description: "Run multiple tests simultaneously without operational overhead. Our platform handles recruitment, scheduling, and data collection so your team can focus on product decisions."
+		},
+		{
+			title: "Integrated analytics dashboard",
+			description: "See all your user insights in one place with seamless integrations to your existing product analytics. Connect the dots between user feedback and product metrics effortlessly."
 		}
 	]}
 />
