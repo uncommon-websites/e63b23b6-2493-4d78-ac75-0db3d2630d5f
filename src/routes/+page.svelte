@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+
+	// Icons
+	import IconMessageCircle from "~icons/lucide/message-circle";
+	import IconZap from "~icons/lucide/zap";
+	import IconMousePointer from "~icons/lucide/mouse-pointer";
+	import IconUsers from "~icons/lucide/users";
+	import IconPuzzle from "~icons/lucide/puzzle";
+	import IconCalendar from "~icons/lucide/calendar";
 </script>
 
 <Hero
@@ -26,60 +34,72 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Validate product ideas with real users. In hours, not weeks."
+	text="Series A product teams move fast—but most user research doesn't. Our platform replaces slow, expensive methods with on-demand feedback from real users, so you can validate new features with confidence in under 24 hours."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Chen",
+			position: "Senior Product Manager",
+			company: "StreamFlow Analytics",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We cut feature validation time from 6 weeks to 3 days. The real user data helped us avoid a costly pivot that would have wasted 4 months of development.",
+			image: "/generated/image-professional-asian-woman-product-manager.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Williams",
+			position: "VP of Product",
+			company: "TechScale Solutions",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Reduced our user research costs by 75% while getting 10x more reliable data. Our last three feature launches hit adoption targets within the first month.",
+			image: "/generated/image-professional-black-man-product-manager-w.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Sofia Rodriguez",
+			position: "Head of Product Strategy",
+			company: "GrowthEngine",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Eliminated the guesswork that led to our biggest product failure. Now we validate with confidence before investing engineering resources — saved us $2M this year.",
+			image: "/generated/image-professional-hispanic-woman-product-mana.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Validate features with confidence"
+	subtitle="Turn user insights into product decisions that drive growth"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Real-time user feedback",
+			description: "Capture authentic user reactions as they interact with your features. Get instant insights that traditional surveys miss.",
+			icon: IconMessageCircle
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Rapid prototype testing",
+			description: "Test concepts in minutes, not weeks. Validate ideas before development starts and save engineering resources.",
+			icon: IconZap
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Behavioral analytics",
+			description: "See exactly how users navigate your features. Identify friction points and optimize user flows with precision.",
+			icon: IconMousePointer
+		},
+		{
+			title: "Segmented insights",
+			description: "Filter feedback by user type, usage patterns, and demographics. Make targeted improvements that matter most.",
+			icon: IconUsers
+		},
+		{
+			title: "Integration ready",
+			description: "Connect with your existing product stack. Sync insights directly to Jira, Linear, or your preferred project management tool.",
+			icon: IconPuzzle
+		},
+		{
+			title: "Automated reporting",
+			description: "Weekly summaries delivered to your inbox. Share compelling data stories with stakeholders and secure buy-in faster.",
+			icon: IconCalendar
 		}
 	]}
 />
